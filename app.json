@@ -4,12 +4,8 @@
     "slug": "Sathimubark",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+    "icon": "./Image/wedding.png",
+    
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -20,10 +16,18 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions": [
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE",
+        "CAMERA_ROLL"
+      ],
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./Image/wedding.png",
+        "backgroundColor": "#900"
+      },
+      
+      "package": "com.Sathimubark",
+      "versionCode":1
     },
     "web": {
       "favicon": "./assets/favicon.png"
