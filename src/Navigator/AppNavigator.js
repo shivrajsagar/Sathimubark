@@ -17,6 +17,7 @@ import Following from "../Screens/Following";
 import Followers from "../Screens/Followers";
 import Chat from "../Screens/Chat";
 import ChatMessage from "../Screens/ChatMessage";
+import Contact from "../Screens/Contact";
 
 const Stack = createStackNavigator();
 const Tab = createMaterialTopTabNavigator();
@@ -200,6 +201,20 @@ function AppNavigator() {
         component={Followers}
         options={{
           title: "Followers",
+          headerStyle: {
+            backgroundColor: "#990000", //Set Header color
+          },
+          headerTintColor: "#fff", //Set Header text color
+          headerTitleStyle: {
+            fontWeight: "bold", //Set Header text style
+          },
+        }}
+      />
+      <Stack.Screen
+        name="Contact Us"
+        component={Contact}
+        options={{
+          title: "Contact Us",
           headerStyle: {
             backgroundColor: "#990000", //Set Header color
           },

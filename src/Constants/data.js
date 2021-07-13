@@ -21,7 +21,7 @@ const dashboard = [
     title: "Contact Us",
     icon: "list",
     type: "",
-    route: "User Listing",
+    route: "Contact Us",
   },
   {
     title: "Follow & Followers",

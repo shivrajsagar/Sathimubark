@@ -98,6 +98,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
   view1: {
+    flex: 1,
     flexDirection: "row",
     alignItems: "center",
   },
@@ -111,13 +112,14 @@ const styles = StyleSheet.create({
     fontSize: 20,
     padding: 5,
     color: "#fff",
-    width: 210,
+    flex: 1,
     marginLeft: 10,
   },
   button: {
     backgroundColor: "#ff8080",
     justifyContent: "flex-end",
     alignSelf: "flex-end",
+    marginRight: 5,
   },
 });
 
