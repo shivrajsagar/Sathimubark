@@ -39,7 +39,7 @@ class Chat extends Component {
   }
 
   openwhatsapplink = (item) => {
-    const number = "+91" + item.number;
+    const number = "+91" + item.mobile;
     const url = `whatsapp://send?phone=${number}`;
     Linking.canOpenURL(url).then((supported) => {
       if (supported) {
@@ -116,7 +116,7 @@ const styles = StyleSheet.create({
     marginLeft: 10,
   },
   button: {
-    backgroundColor: "#ff8080",
+    backgroundColor: "orange",
     justifyContent: "flex-end",
     alignSelf: "flex-end",
     marginRight: 5,
