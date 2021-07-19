@@ -575,6 +575,7 @@ const styles = StyleSheet.create({
     alignSelf: "center",
     position: "absolute",
     marginTop: 20,
+    backgroundColor: "white",
   },
 });
 export default ProfileUpdate;

@@ -7,8 +7,8 @@ const Contact = () => {
     <View style={styles.container}>
       <Card containerStyle={{ borderRadius: 10 }}>
         <Title>Address</Title>
-        <Subtitle>Sathi Mubarak</Subtitle>
-        <Subtitle>XXXXXXXXXXXXXXX</Subtitle>
+        <Subtitle>Sathimubark Pvt. Ltd.</Subtitle>
+        <Subtitle>Sathi Mubark</Subtitle>
         <Subtitle>Mobile: +91 9859225922</Subtitle>
         <Subtitle>Email: Pargatiexperts@gmail.com</Subtitle>
       </Card>
